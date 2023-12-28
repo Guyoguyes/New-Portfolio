@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="SafetyMtaani"
               description="Developed SafetyMtaani, a web application facilitating crime reporting, search, and analysis for community awareness. Key contributions include implementing intuitive crime search and reporting features, leading UI/UX design for enhanced user experience, and establishing a robust database service for efficient data management. "
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/Guyoguyes/Mara.git"
               demoLink="https://guyoguyes.github.io/delani-studio/"
             />
           </Col>
@@ -49,8 +49,8 @@ function Projects() {
               isBlog={false}
               title="Blue Collar Connect"
               description="Blue Collar Connect is an innovative startup dedicated to transforming the connection between blue-collar service providers and clients. Designed for efficiency and real-time communication, this platform serves as a dynamic bridge, connecting users seamlessly."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/Guyoguyes/Mara.git"
+              demoLink="https://github.com/Guyoguyes/Mara.git"              
             />
           </Col>
 
