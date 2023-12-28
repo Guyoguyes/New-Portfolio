@@ -4,10 +4,9 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
-  SiMacos,
   SiLinux,
-  SiDocker
+  SiDocker,
+  SiJirasoftware
 } from "react-icons/si";
 
 function Toolstack() {
@@ -26,7 +25,7 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiJirasoftware />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
