@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import Button from "react-bootstrap/Button";
 
 function AboutCard() {
   return (
@@ -9,16 +10,28 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Guyo Abdub </span>
-            from <span className="purple"> Nairobi, Kenya.</span>
+            hailing from the vibrant city <span className="purple"> Nairobi, Kenya.</span>
             <br />
             I am currently employed as a software developer at mHealth Kenya.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            <br />
+            Join me on this journey where technology meets creativity, and every adventure is an opportunity for growth and discovery!
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
+
+            <Button
+                href="https://github.com/Guyoguyes/New-Portfolio"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=guyo-abdub" target="_blank" style={{textDecoration: 'none', color: '#fff'}}>Connect on LinkedIn</a>
+
+            </Button>
+            <br />
+            <br />
+              Apart from coding, some other activities that I love to do!
+              </p>
+            
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
@@ -36,6 +49,7 @@ function AboutCard() {
           </p>
           <footer className="blockquote-footer">Guyo Abdub</footer>
         </blockquote>
+        
       </Card.Body>
     </Card>
   );
