@@ -31,7 +31,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src="https://res.cloudinary.com/dabfdxbfj/image/upload/v1685898945/WhatsApp_Image_2023-06-03_at_10.06.14_AM_h3n3gu.jpg" alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
