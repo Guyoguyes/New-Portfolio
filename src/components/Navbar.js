@@ -38,10 +38,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <h1 className="main-name" style={{ color: '#74da9d', fontFamily: 'Irish Grover', fontSize: '50px', fontStyle: 'normal', fontWeight: 400}}>
-  G<strong>.</strong>A
-</h1>
+        <Navbar.Brand href="/" className="d-flex absolute">
+          <img src="https://res.cloudinary.com/dymlg8elg/image/upload/v1720796761/guyoLogo_dj07i4.png" style={{width: "150px"}}/>
 
         </Navbar.Brand>
         <Navbar.Toggle
